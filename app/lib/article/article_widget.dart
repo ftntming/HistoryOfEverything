@@ -89,7 +89,7 @@ class _ArticleWidgetState extends State<ArticleWidget> {
       img: style,
       blockSpacing: 20.0,
       listIndent: 20.0,
-      blockquotePadding: 20.0,
+      blockquotePadding: EdgeInsets. symmetric(vertical: 20.0, horizontal: 1.0),
     );
     setState(() {
       _title = widget.article.label;
